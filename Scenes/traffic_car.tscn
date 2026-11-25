@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://con6db32dwl3p"]
+
+[ext_resource type="Script" uid="uid://7khs51vh2n2d" path="res://Scripts/traffic_car.gd" id="1_re8se"]
+
+[node name="TrafficCar" type="Node2D" unique_id=2135076716]
+script = ExtResource("1_re8se")
+
+[node name="Body" type="Sprite2D" parent="." unique_id=681284357]
+scale = Vector2(0.5, 0.5)
